@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf8">
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+<title>MyPortfolio</title>
+</head>
+
+<body>
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a class="hi" href="index.html">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Socials</button>
+            <div class="dropdown-content">
+              <a href="#" target="_blank">Instagram</a>
+            </div>
+          </div>
+        <a class="hi" href="feedback.html">Feedback</a>
+    </div>
+
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button>
+        <h1 class="logo">Portfolio<span>Project</span></h1>
+    </div>
+
+    <form>
+        <a href="#"><img class="profile" src="https://static.vecteezy.com/system/resources/previews/008/302/421/original/eps10-white-user-icon-or-logo-in-simple-flat-trendy-modern-style-isolated-on-black-background-free-vector.jpg" width="45" height="40"></a>
+        <div>
+            <input id="demo" type="text"  placeholder="Search Here" class="searchbox" autocomplete="off">
+            <input type="image" id="searchbutton"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC_uDyjHMKMXwylIpI1v7AFLcVBaaTU9gBuQ&usqp=CAU" width="35" height="30" autocomplete="off">
+        </div> 
+    </form>
+
+
+    <div class="btn-group"> <!--buttons just there to match the layout-->
+        <button>filler 1</button>
+        <button>filler 2 ▼</button>
+        <button>filler 3 ▼</button>
+        <button>filler 4 ▼</button>
+        <button>filler 5 ▼</button>
+        <button>filler 6</button>
+        <button>filler 7 ▼</button>
+        <button>filler 8</button>
+    </div>
+    
+<div id="del">
+    <div class="mt-4 p-5 bg-light">
+        <hr>
+        <h2 class="info center"><strong>Sign Up for Free</strong></h2>
+        <p class="info center">and enhance your experience</p>
+
+        <form class="center">
+            <input id="email" class="border" type="email" placeholder="Email"><p></p>
+            <input id="username" class="border" type="text" placeholder="Username (6+ characters)"><p></p>
+            <input id="password" class="border" type="password" placeholder="(6+ characters)"><p></p> 
+            <input id="submit" class="border" type="button" value="Sign Up" onclick="signUp()"> <!--so page doesnt refresh with type submit-->
+        </form>
+      </div>
+      <p class="info center">Sign up so i can steal your data<br> I'll put the code up on github if anyone wants lol</p>
+</div>
+
+
+    <script src="action.js"></script>
+</body>
+
+</html>
